@@ -1,2 +1,166 @@
+nav {
+    color: #7B829A;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.larryHeader, .larryHeader > h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
 
 
+
+/* Austin's Executive Summary css */
+
+.executive-summary-main > h2 {
+    margin-top: 5%;
+    margin-botton
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.executive-summary-main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.larryFace {
+    width: 33%;
+}
+
+.collab-imgs {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.collab-imgs img{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 600px) {
+    .collab-imgs {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: space-between;
+        justify-content: baseline;
+        margin-left: 33%;
+        margin-right: 33%;
+        margin-top: 5%;
+    }
+}
+
+.collaborators {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 8px #888888;
+    border: #888888 solid 1px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/* Dan's Career css */
+h3 {
+    display: flex;
+    justify-content: center;
+    background-color: #8A8FA5;
+}
+
+.career_LarryHeads {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #8A8FA5; */
+}
+
+.list_Skills {
+    display: flex;
+    list-style-type: none ;
+    justify-content: space-evenly;
+}
+.list_PlacesLived {
+    display: flex;
+    list-style-type: none ;
+    justify-content: space-evenly;
+}
+
+.list_Collaborators {
+    display: flex;
+    list-style-type: none ;
+    justify-content: space-evenly;
+}
+
+.career_CollabPics {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.career_Jerry, .career_Julia, .career_Cheryl, .career_Jeff, .career_Brooklyn, .career_CollegePark, .career_Manhattan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hannah's Personal css */
+
+/* Anupuma's NewsFeed css */
+.newsfeed-flex-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1rem;
+    border-color: black;
+
+}
+
+.newsfeed-p{
+    color: black;
+}
+
+.newsfeed-title{
+    color: black;
+    background-color: grey;
+    padding: .5em;
+}
+.newsfeed-div{
+    background-color: lightgrey;
+}
+.newsfeed-flex-item{
+    padding: 1rem;
+}
+.newsfeed-h3{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.newsfeed-body{
+    background-color:whitesmoke;
+}
+.newsfeed-img{
+    height: 300px;
+    width: 450px;
+
+}
