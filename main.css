@@ -1,1 +1,79 @@
-/* Hannah's CSS */
+nav {
+    color: #7B829A;
+}
+
+body {
+    background-color: #E99453;
+}
+
+/* Austin's Executive Summary css */
+
+/* Dan's Career css */
+
+/* Hannah's Personal css */
+
+body {
+    background-color: #F6F6F4;
+    color: white;
+}
+
+.personal-header-section {
+    background-color: #EFB74F;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    border: 5px solid white;
+    font-size: 65px;
+}
+
+/* Begin About Section Parent */
+
+.personal-about-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F6F4;
+
+}
+
+/* End About Section Parent */
+
+.personal-header-items {
+    text-align: center;
+}
+
+.personal-list-from {
+    text-align: center;
+    background-color: #312F37;
+    height: 300px;
+}
+
+.personal-list-from:hover {
+    box-shadow: inset 0 0 0 5px #8a8fa5;
+}
+
+.personal-list-residence {
+    text-align: center;
+    background-color: #312F37;
+    height: 300px;
+}
+
+.personal-list-residence:hover {
+    box-shadow: inset 0 0 0 5px #8a8fa5;
+}
+
+.personal-list-family {
+    text-align: center;
+    background-color: #312F37;
+    height: 300px;
+}
+
+.personal-list-family:hover {
+    background-color: #312F37;
+    box-shadow: inset 0 0 0 5px #8a8fa5;
+    display: flex; 
+}
+
+
+
+/* Anupuma's NewsFeed css */
