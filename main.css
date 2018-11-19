@@ -5,6 +5,7 @@ nav {
 }
 
 body {
+    background-color: #E6DFB9;
     font-family: 'Roboto', sans-serif;
     background-color: #E6DFB9;
 }
@@ -37,6 +38,10 @@ body {
 a {
     text-decoration: none;
     color: black;
+}
+
+.collabHead {
+    background-color: white;
 }
 
 .executive-summary-main {
@@ -85,6 +90,7 @@ flex-wrap: wrap;
     border: #888888 solid 1px;
     margin-left: 15%;
     margin-right: 15%;
+    background-color: white;
 }
 /* Dan's Career css */
 h3 {
@@ -92,6 +98,7 @@ h3 {
     justify-content: center;
     background-color: #8A8FA5;
 }
+
 
 h5 {
     background-color: #CA674D;
@@ -134,3 +141,38 @@ h5 {
 /* Hannah's Personal css */
 
 /* Anupuma's NewsFeed css */
+.newsfeed-flex-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1rem;
+    border-color: black;
+
+}
+
+.newsfeed-p{
+    color: black;
+}
+
+.newsfeed-title{
+    color: black;
+    background-color: grey;
+    padding: .5em;
+}
+.newsfeed-div{
+    background-color: lightgrey;
+}
+.newsfeed-flex-item{
+    padding: 1rem;
+}
+.newsfeed-h3{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.newsfeed-body{
+    background-color:whitesmoke;
+}
+.newsfeed-img{
+    height: 300px;
+    width: 450px;
+
+}
