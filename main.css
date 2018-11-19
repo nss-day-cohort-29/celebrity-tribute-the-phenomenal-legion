@@ -1,5 +1,8 @@
-/* Hannah's CSS */
+nav {
+    color: #7B829A;
+}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .topnav nav {
     display: flex;
@@ -12,4 +15,17 @@
 }
 
 =======
+>>>>>>> master
+=======
+body {
+    background-color: #E99453;
+}
+
+/* Austin's Executive Summary css */
+
+/* Dan's Career css */
+
+/* Hannah's Personal css */
+
+/* Anupuma's NewsFeed css */
 >>>>>>> master
