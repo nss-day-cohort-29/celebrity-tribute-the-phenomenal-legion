@@ -39,6 +39,10 @@ a {
     color: black;
 }
 
+.collabHead {
+    background-color: white;
+}
+
 .executive-summary-main {
     display: flex;
     flex-direction: column; 
@@ -93,6 +97,7 @@ h3 {
     justify-content: center;
     background-color: #8A8FA5;
 }
+
 
 .career_LarryHeads {
     display: flex;
