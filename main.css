@@ -1,0 +1,12 @@
+/* Hannah's CSS */
+
+.topnav nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.larryHeader, .executive-summary-main  {
+    display: flex;
+    justify-content: space-between;
+}
+
