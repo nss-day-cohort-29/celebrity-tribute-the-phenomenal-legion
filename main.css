@@ -1,0 +1,54 @@
+nav {
+    color: #7B829A;
+}
+
+body {
+    background-color: #E99453;
+}
+
+/* Austin's Executive Summary css */
+
+/* Dan's Career css */
+h3 {
+    display: flex;
+    justify-content: center;
+    background-color: #8A8FA5;
+}
+
+.career_LarryHeads {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #8A8FA5; */
+}
+
+.list_Skills {
+    display: flex;
+    list-style-type: none ;
+    justify-content: space-evenly;
+}
+.list_PlacesLived {
+    display: flex;
+    list-style-type: none ;
+    justify-content: space-evenly;
+}
+
+.list_Collaborators {
+    display: flex;
+    list-style-type: none ;
+    justify-content: space-evenly;
+}
+
+.career_CollabPics {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.career_Jerry, .career_Julia, .career_Cheryl, .career_Jeff, .career_Brooklyn, .career_CollegePark, .career_Manhattan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hannah's Personal css */
+
+/* Anupuma's NewsFeed css */
