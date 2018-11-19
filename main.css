@@ -1,31 +1,92 @@
 nav {
     color: #7B829A;
-}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-.topnav nav {
     display: flex;
     justify-content: space-evenly;
 }
 
-.larryHeader, .executive-summary-main  {
-    display: flex;
-    justify-content: space-between;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-=======
->>>>>>> master
-=======
-body {
-    background-color: #E99453;
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
+
+.larryHeader, .larryHeader > h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
 
 /* Austin's Executive Summary css */
 
+.executive-summary-main > h2 {
+    margin-top: 5%;
+    margin-botton
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.executive-summary-main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.larryFace {
+    width: 33%;
+}
+
+.collab-imgs {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.collab-imgs img{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 600px) {
+    .collab-imgs {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: space-between;
+        justify-content: baseline;
+        margin-left: 33%;
+        margin-right: 33%;
+        margin-top: 5%;
+    }
+}
+
+.collaborators {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 8px #888888;
+    border: #888888 solid 1px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 /* Dan's Career css */
 
 /* Hannah's Personal css */
 
 /* Anupuma's NewsFeed css */
->>>>>>> master
