@@ -5,6 +5,7 @@ nav {
 }
 
 body {
+    background-color: #E6DFB9;
     font-family: 'Roboto', sans-serif;
     background-color: #E6DFB9;
 }
@@ -37,6 +38,10 @@ body {
 a {
     text-decoration: none;
     color: black;
+}
+
+.collabHead {
+    background-color: white;
 }
 
 .executive-summary-main {
@@ -85,6 +90,7 @@ flex-wrap: wrap;
     border: #888888 solid 1px;
     margin-left: 15%;
     margin-right: 15%;
+    background-color: white;
 }
 /* Dan's Career css */
 h3 {
@@ -92,6 +98,7 @@ h3 {
     justify-content: center;
     background-color: #8A8FA5;
 }
+
 
 h5 {
     background-color: #CA674D;
