@@ -6,6 +6,7 @@ nav {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #E6DFB9;
 }
 
 .social-links {
@@ -90,6 +91,10 @@ h3 {
     display: flex;
     justify-content: center;
     background-color: #8A8FA5;
+}
+
+h5 {
+    background-color: #CA674D;
 }
 
 .career_LarryHeads {
